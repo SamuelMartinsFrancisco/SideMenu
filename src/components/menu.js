@@ -10,7 +10,7 @@ export default function Menu(){
             as='header'
             onClick={(event) => {
                 setHidden(hidden === false ? true : false);
-                console.log(hidden);
+                console.log('O Menu está escondido? ', hidden);
             }}
             styleSheet={{
                 position: 'fixed',
